@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import PersonIRPF from "../../domain/PersonIrpf"
 import IrpfController from "../../controllers/IrpfController"
 import useInput from "../../hooks/useInput"
-import { Modal } from 'react-bootstrap'
+
 
 
 const IrpfForm = () => {
@@ -55,24 +55,10 @@ const IrpfForm = () => {
             <p>dependentes: {person.dependentsNumber}</p>
             <p>irpf: {person._irpf}</p>
             </div> */}
-
+          <p>irpf: {person._irpf}</p>
         </form>
         
-        <Modal show={showModalResultado} onHide={handleModalResultado}>
-        <Modal.Header closeButton>
-          <Modal.Title>Resultado do Calculo</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-            <p>Salario: {person.totalSalary}</p>
-            <p>dependentes: {person.dependentsNumber}</p>
-            <p>irpf: {person._irpf}</p>
-        </Modal.Body>
-        <Modal.Footer>    
-          <button className="btn btn-outline-primary ms-2 mb-1 me-2"  variant="primary" onClick={() => handleModalResultado()}>
-            OK
-          </button>
-        </Modal.Footer>
-      </Modal>
+      
 
         </>
     )
