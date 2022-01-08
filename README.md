@@ -1,5 +1,5 @@
 # TrabalhoFinalWebDevelopment
-Trabalho final da aula Web Development 
+Trabalho final da aula Web Development Participantes
 
 - Danilo De Souza Novaes
 - Joanilza Oliveira
