@@ -1,10 +1,10 @@
 # TrabalhoFinalWebDevelopment
 Trabalho final da aula Web Development 
 
-Danilo De Souza Novaes
-Joanilza Oliveira
-Mathes Brasileiro
-Thiago Valadão 
+- Danilo De Souza Novaes
+- Joanilza Oliveira
+- Mathes Brasileiro
+- Thiago Valadão 
 
 # API Back-End
 clonar o projeto de API para IRPF https://github.com/danilo562/java-rest-api
