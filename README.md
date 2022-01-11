@@ -7,7 +7,7 @@ Trabalho final da aula Web Development Participantes
 - Thiago Valadão 
 
 # API Back-End
-Projeto de API para IRPF https://github.com/danilo562/java-rest-api com problema de cors.
+Projeto de API para IRPF clando do repositorio https://github.com/danilo562/java-rest-api com problema de cors, porem o projeto que esta neste projeto esta corrigido.
 basta rodar o projeto java-rest-api-main.
 depois rodar os comandos.
 - mvn clean
