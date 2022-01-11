@@ -1,11 +1,6 @@
 ## IRPF API (fake)
 
 
-- Faça o clone do projeto 
-
-```bash
-git clone https://github.com/prof-emilio-resende/java-rest-api.git
-```
 
 - Execute as ações do maven para build na raíz do projeto
 ```bash
