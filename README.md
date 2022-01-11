@@ -1,4 +1,4 @@
-# TrabalhoFinalWebDevelopment
+# Trabalho Final Web Development
 Trabalho final da aula Web Development Participantes
 
 - Danilo De Souza Novaes
