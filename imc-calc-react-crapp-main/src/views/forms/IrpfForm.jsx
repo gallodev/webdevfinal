@@ -50,16 +50,16 @@ const IrpfForm = () => {
                     Calcular
                 </button>
             </div>
-            {/* <div className="col-12 mb-3">
+        
+        </form>
+
+        <div className="col-12 mb-3">
             <p>Salario: {person.totalSalary}</p>
             <p>dependentes: {person.dependentsNumber}</p>
             <p>irpf: {person._irpf}</p>
-            </div> */}
-          <p>irpf: {person._irpf}</p>
-        </form>
-        
+       </div>
       
-
+        
         </>
     )
 }

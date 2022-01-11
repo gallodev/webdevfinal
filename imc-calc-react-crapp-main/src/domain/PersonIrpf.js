@@ -1,59 +1,50 @@
-export default class Person {
-    constructor(theHeight, theWeight) {
-      if (typeof theHeight !== "number" || isNaN(theHeight))
-        throw Error("height is not a number");
-  
-      if (typeof theWeight !== "number" || isNaN(theWeight))
-        throw Error("height is not a number");
-  
-      this.height = theHeight;
-      this.weight = theWeight;
-      this.imc = null;
-      this.imcDescription = "N/A";
-    }
-  
-    isValid() {
-        return this.weight && this.height;
-    }
-  
-    get height() {
-      return this._height;
-    }
-  
-    set height(theHeight) {
-      this._height = theHeight;
-    }
-  
-    get weight() {
-      return this._weight;
-    }
-  
-    set weight(theWeight) {
-      this._weight = theWeight;
-    }
-  
-    get imc() {
-      return this._imc;
-    }
-  
-    set imc(theImc) {
-      this._imc = theImc;
-    }
-  
-    get imcDescription() {
-      return this._imcDescription;
-    }
-  
-    set imcDescription(theImcDescription) {
-      this._imcDescription = theImcDescription;
-    }
-  
-    toObj() {
-        return {
-            height: this._height,
-            weight: this._weight
-        }
-    }
-  
+export default class PersonIrpf {
+  constructor(theTotalSalary, theDependentsNumber) {
+    if (typeof theTotalSalary !== "number" || isNaN(theTotalSalary))
+      throw Error(" is not a number");
+
+    if (typeof theDependentsNumber !== "number" || isNaN(theDependentsNumber))
+      throw Error("DependentsNumber is not a number");
+      
+    this.totalSalary = theTotalSalary;
+    this.dependentsNumber = theDependentsNumber;
+    this.irpf = null;
+  }
+
+  isValid() {
+      return this.totalSalary && this.dependentsNumber;
+  }
+
+  get totalSalary() {
+    return this._totalSalary;
+  }
+
+  set totalSalary(theTotalSalary) {
+    this._totalSalary = theTotalSalary;
+  }
+
+  get dependentsNumber() {
+    return this._dependentsNumber;
+  }
+
+  set dependentsNumber(theDependentsNumber) {
+    this._dependentsNumber = theDependentsNumber;
+  }
+
+  get irpf() {
+    return this._irpf;
+  }
+
+  set irpf(theIrpf) {
+    this._irpf = theIrpf;
+  }
+
+  toObj() {
+      return {
+        totalSalary: this._totalSalary,
+        dependentsNumber: this._dependentsNumber
+      }
+  }
+
   }
   
