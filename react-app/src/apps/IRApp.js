@@ -1,16 +1,13 @@
-/* eslint-disable */
 import React from "react";
 import IrpfForm from "../views/forms/IrpfForm";
 
-
-
-const OtherApp = () => (
+const IRApp = () => (
   <div className="container">
     <div className="data">
-      <span>Other App</span>
+      <span>IR App</span>
       <IrpfForm />
     </div>
   </div>
 )
 
-export default OtherApp
+export default IRApp;

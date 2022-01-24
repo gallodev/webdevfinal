@@ -7,10 +7,7 @@ import PersonContextProvider from './contexts/PersonContextProvider';
 import reportWebVitals from './reportWebVitals';
 
 const ImcApp = lazy(() => import("./apps/App"))
-const OtherApp = lazy(() => import("./apps/Other"))
-
-
-
+const IRApp = lazy(() => import("./apps/IRApp"))
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,7 +18,7 @@ ReactDOM.render(
             <Link to="/imc">Imc App...</Link>
           </li>
           <li>
-            <Link to="/other">Other App...</Link>
+            <Link to="/IR">IR App...</Link>
           </li>
         </ul>
       </div>
@@ -35,9 +32,9 @@ ReactDOM.render(
             </PersonContextProvider>
           </Suspense>} />
         <Route
-          path="/other"
-          element={<Suspense fallback={<span>loading other...</span>}>
-            <OtherApp />
+          path="/IR"
+          element={<Suspense fallback={<span>loading IR app...</span>}>
+            <IRApp />
           </Suspense>} />
       </Routes>
     </Router>

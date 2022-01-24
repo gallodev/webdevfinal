@@ -32,14 +32,18 @@
 
 .data .row {
     clear: both;
+    margin: 25px 0;
 }
 
 .data label {
-   font-weight: bold; 
+   font-weight: bold;    
 }
 
-.data input {
-    float: right;
+.data input {    
+    width: 200px;
+    height: 40px;
+    margin: 20 0;
+    padding: 0 0 0 10px;    
 }
 
 .primary-action {
@@ -53,6 +57,9 @@
     cursor: pointer;
     background-color: #3b64ce;
     border: #3b64ce;
+    font-size: 18px;
+    padding: 25px 70px
+
 }
 
 .primary-action:hover {
