@@ -1,24 +1,13 @@
-# Trabalho Final Web Development
-Trabalho final da aula Web Development Participantes
+# Curso: MBA Full Stack Developer - Web development
 
-- Danilo De Souza Novaes
-- Joanilza Oliveira
-- Mathes Brasileiro
-- Thiago Valadão 
+🎓 Alunos:
 
-# API Back-End
-Projeto de API para IRPF clando do repositorio https://github.com/danilo562/java-rest-api com problema de cors, porem o projeto que esta neste projeto esta corrigido.
-basta rodar o projeto java-rest-api-main.
-depois rodar os comandos.
-- mvn clean
-- mvn install
+    Christian Braz Gallo
+    Lucas Passos Gonzaga
+    Jairo Medeiros
 
-depois para rodar a api 
-- mvn spring-boot:run
+Projeto para calcular o imposto de renda de pessoa física
 
-# Front 
-Depois de clonar o projeto rodar os comandos 
+🗒️ Descrição:
 
-npm install
-
-npm start
+    Este projeto tem o objetivo de calcular o imposto de renda de pessoa física.
